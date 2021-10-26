@@ -1,0 +1,1 @@
+var Cat;(function(){const t=document.getElementById("img0");t.addEventListener("click",c);const e=document.getElementById("img1");t.addEventListener("click",c);const n=document.getElementById("img2");function c(){t.classList.toggle("flipCard"),e.classList.toggle("flipCard"),n.classList.toggle("flipCard")}t.addEventListener("click",c)})(),Cat={};
