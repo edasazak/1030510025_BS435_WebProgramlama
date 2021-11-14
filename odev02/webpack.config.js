@@ -10,7 +10,7 @@ module.exports = {
         library: "Cat"
     },
     devServer: {
-        contentBase: './public',
+        static: './public',
         injectClient: false
     },
     optimization: {
