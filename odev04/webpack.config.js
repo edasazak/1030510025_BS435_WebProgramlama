@@ -24,7 +24,7 @@ module.exports = {
         extensions: ['.js','.jsx']
     },
     devServer: {
-        contentBase: `./public`
+        static: `./public`
     },
     optimization: {
         minimize: true,
