@@ -10,7 +10,7 @@ class Home extends Component {
                     Bu oyunda 3 kapalı kart içindeki kediyi bulman gerekmektedir. İlk tercihte Kedi kartını bulamaz isen 2. seçim hakkı tanınacaktır.
                 </p>
                 <div className="action">
-                    <Link className="play" to = {"/Game"}>Oyna</Link>
+                    <Link to = {"/game"}>Oyna</Link>
                 </div>
             </div>
         )

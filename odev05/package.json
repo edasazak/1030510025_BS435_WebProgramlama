@@ -1,6 +1,6 @@
 {
   "author": "Eda Sazak",
-  "name": "odev03",
+  "name": "odev05",
   "version": "1.0.0",
   "main": "src/client/index.jsx",
   "license": "MIT",
@@ -20,7 +20,8 @@
     "terser-webpack-plugin": "^5.2.4",
     "webpack": "^5.60.0",
     "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.4.0"
+    "webpack-dev-server": "^4.4.0",
+    "source-map-loader": "^1.0.0"
   },
   "babel": {
     "plugins": [

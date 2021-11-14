@@ -1,11 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {oyun1} from "./oyun";
-import {HashRouter, Switch} from "react-router-dom";
-import {Route} from "react-router";
-import {Game} from "./Game";
+import {Game} from "./game";
 import Home from "./home";
-
+import {HashRouter} from "react-router-dom";
+import {Route, Routes} from "react-router";
 const notFound = () => {
     return(
         <div>
@@ -20,11 +18,11 @@ class App extends React.Component{
         return(
             <HashRouter>
                 <div>
-                <Switch>
-                    <Route exact path = '/Game' component = {Game}/>
-                    <Route exact path= '/' component={Home}/>
+                <Routes>
+                    <Route exact path = '/game' component={Game}/>
+                    <Route exact path='/welcome' element={<Home/>}/>
                     <Route component = {notFound}/>
-                </Switch>
+                </Routes>
                 </div>
             </HashRouter>
         )

@@ -5,9 +5,7 @@ module.exports = {
     entry: './src/client/index.jsx',
     output: {
         filename: "bundle.js",
-        path: path.resolve(__dirname,'public'),
-        libraryTarget: "var",
-        library: "Cat"
+        path: path.resolve(__dirname,'public')
     },
     module: {
         rules: [
@@ -24,7 +22,7 @@ module.exports = {
         extensions: ['.js','.jsx']
     },
     devServer: {
-        contentBase: `./public`
+        static: `./public`
     },
     optimization: {
         minimize: true,

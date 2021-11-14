@@ -21,10 +21,10 @@ export class Game extends Component {
             let durum;
 
             if(kediIndex===index){
-                yeniKart[index] = "img/Kedi.jpg";
+                yeniKart[index] = "img/cat.jpg";
                 durum = "Kazandınız :)"
             }else {
-                yeniKart[index] = "img/Kopek.jpg";
+                (yeniKart[index] = "img/dog1.jpg") || (yeniKart[index] = "img/dog2.jpg");
                 if(kartSayac===1){
                     durum = "Kaybettiniz :("
                 }
