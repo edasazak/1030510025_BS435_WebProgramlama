@@ -20,7 +20,7 @@ class App extends React.Component{
                 <div>
                 <Routes>
                     <Route exact path = '/game' component={Game}/>
-                    <Route exact path='/welcome' element={<Home/>}/>
+                    <Route exact path='/' element={<Home/>}/>
                     <Route component = {notFound}/>
                 </Routes>
                 </div>
